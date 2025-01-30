@@ -1,0 +1,65 @@
+@font-face {
+    font-family: 'sf_cartoonist_handregular';
+    src: url('../fonts/sf_cartoonist_hand-webfont.woff2') format('woff2'),
+    url('../fonts/sf_cartoonist_hand-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+*{
+    text-align: center;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+#content{
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    align-items: center;
+    flex: auto;
+    flex-direction: column;
+    width: 100%;
+    background-color: rgba(250, 218, 122,0.5);
+    padding: 20px;
+}
+
+body,html{
+    color: white;
+    background-image: url("../../img/gigi_background.jpg");
+    background-size: cover;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+header{
+    display: flex;
+    align-items: center;
+    font-family: 'Courier New', Courier, monospace;
+    padding: 10px;
+    background-color: #F0A04B;
+}
+
+header h1{
+    flex: 3
+}
+
+header nav{
+    flex: 1;
+}
+
+button{
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    background: none;
+    color: white;
+    font-weight: bold;
+}
+
+button:hover{
+    cursor: pointer;
+    color: #FADA7A;
+}

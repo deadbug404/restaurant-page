@@ -1,0 +1,46 @@
+#menu_container{
+    display: grid;
+    padding: 10px;
+    width: 60vw;
+    align-self: center;
+    grid-template-columns:repeat(auto-fill, minmax(300px,1fr));
+    gap: 50px;
+    font-family:'sf_cartoonist_handregular','Courier New', Courier, monospace;
+}
+
+.card{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    height: 200px;
+    white-space: pre-line;
+    background-color: #B82132;
+    color: #FADA7A;
+    padding: 10px;
+    border: 3px solid orange;
+    border-radius: 10px;
+    gap: 10px;
+}
+
+.card:hover{
+    animation: pulse;
+    animation-duration: 1s;
+    cursor: pointer;
+}
+
+.card p,
+.card h3{
+    text-align: left;
+}
+
+.menu-image{
+    width: 100px;
+    height: 100px;
+    border-radius: 10px;
+    border: 2px solid black;
+}
+
+.jackInTheBox{
+    animation: jackInTheBox;
+    animation-duration: 1s;
+}
