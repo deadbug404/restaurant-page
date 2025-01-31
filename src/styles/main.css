@@ -63,3 +63,9 @@ button:hover{
     cursor: pointer;
     color: #FADA7A;
 }
+
+@media screen and (max-width: 800px) {
+    header{
+        flex-direction: column;
+    }   
+}

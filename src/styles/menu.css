@@ -44,3 +44,9 @@
     animation: jackInTheBox;
     animation-duration: 1s;
 }
+
+@media screen and (max-width: 800px) {
+    #menu_container{
+        width: 100%;
+    }
+}

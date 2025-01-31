@@ -21,3 +21,6 @@ buttons.forEach(button => {
     }
 });
 
+
+
+//make the ui phone compatible for home,menu and about
